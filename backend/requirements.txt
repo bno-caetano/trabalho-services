@@ -1,0 +1,7 @@
+tiktoken
+openai
+youtube_transcript_api
+fastapi
+pydantic
+uvicorn
+streamlit

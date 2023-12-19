@@ -1,0 +1,15 @@
+
+version: "3.4"
+services:
+    yousum-backend:
+        image: backend
+        container_name: yousum-backend
+        ports: 
+            - 8080:8080
+    yousum-frontend:
+        image: frontend
+        ports:
+            - 8501:8501
+        container_name: yousum-frontend
+        depends_on:
+            - yousum-backend

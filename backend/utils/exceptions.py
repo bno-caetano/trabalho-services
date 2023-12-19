@@ -1,0 +1,3 @@
+class DurationTime(Exception):
+    pass
+
